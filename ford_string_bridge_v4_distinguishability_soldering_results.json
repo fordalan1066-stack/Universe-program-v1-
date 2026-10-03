@@ -1,0 +1,99 @@
+{
+  "branch": "Ford\u2013String Bridge v4 \u2014 distinguishability soldering",
+  "string_side": {
+    "no_scale_identity": "3",
+    "metric_common_shape": "Matrix([[1/4, 0, 0], [0, 1/4, 0], [0, 0, 1/4]])",
+    "leading_Kahler_hessian": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+    "common_direction": "c=(ln t1+ln t2+ln t3)/sqrt(3)",
+    "shape_directions": [
+      "s1=ln(t1/t2)/sqrt(2)",
+      "s2=ln(t1*t2/t3^2)/sqrt(6)"
+    ],
+    "absolute_common_modulus": "still unfixed; no new potential inserted"
+  },
+  "ford_side": {
+    "horizon_spectrum": "1 x1, 11/25 x2, 3/25 x1",
+    "complete_first_cycle_balance": "2*(11/25)+3/25=1",
+    "complete_common_fraction": "1/2",
+    "complete_angle": "pi/4"
+  },
+  "soldering_test": {
+    "two_string_shapes_to_two_Ford_shape_modes": "dimensionally canonical local match",
+    "shape_only_relative_weight_at_first_cycle": "22/25",
+    "shape_only_common_fraction": "25/47",
+    "shape_only_angle_rad": 0.7534615584524774,
+    "shape_only_fails_50_50": true,
+    "exact_missing_weight": "3/25",
+    "exact_missing_weight_equals_Ford_orientation": "3/25",
+    "complete_relative_weight": "1",
+    "complete_common_fraction": "1/2",
+    "complete_angle": "pi/4",
+    "string_shape_metric_norm_ratio_under_shape_return": "121/625"
+  },
+  "cycles": [
+    {
+      "n": 0,
+      "kahler_shape_relative_weight": 2.0,
+      "omitted_orientation_weight": 1.0,
+      "complete_relative_weight": 3.0,
+      "complete_common_fraction": 0.25,
+      "complete_distinguishability_angle": 1.0471975511965976
+    },
+    {
+      "n": 1,
+      "kahler_shape_relative_weight": 0.88,
+      "omitted_orientation_weight": 0.12,
+      "complete_relative_weight": 1.0,
+      "complete_common_fraction": 0.5,
+      "complete_distinguishability_angle": 0.7853981633974483
+    },
+    {
+      "n": 2,
+      "kahler_shape_relative_weight": 0.3872,
+      "omitted_orientation_weight": 0.0144,
+      "complete_relative_weight": 0.4016,
+      "complete_common_fraction": 0.7134703196347032,
+      "complete_distinguishability_angle": 0.5648447323471931
+    },
+    {
+      "n": 3,
+      "kahler_shape_relative_weight": 0.170368,
+      "omitted_orientation_weight": 0.001728,
+      "complete_relative_weight": 0.172096,
+      "complete_common_fraction": 0.8531724363874631,
+      "complete_distinguishability_angle": 0.39323754246733417
+    },
+    {
+      "n": 4,
+      "kahler_shape_relative_weight": 0.07496192,
+      "omitted_orientation_weight": 0.00020736,
+      "complete_relative_weight": 0.07516928,
+      "complete_common_fraction": 0.9300860976980295,
+      "complete_distinguishability_angle": 0.26759455740938154
+    },
+    {
+      "n": 5,
+      "kahler_shape_relative_weight": 0.0329832448,
+      "omitted_orientation_weight": 2.48832e-05,
+      "complete_relative_weight": 0.033008128,
+      "complete_common_fraction": 0.9680465941116002,
+      "complete_distinguishability_angle": 0.1797210835310264
+    },
+    {
+      "n": 6,
+      "kahler_shape_relative_weight": 0.014512627712,
+      "omitted_orientation_weight": 2.985984e-06,
+      "complete_relative_weight": 0.014515613696,
+      "complete_common_fraction": 0.9856920746215843,
+      "complete_distinguishability_angle": 0.11990283504018291
+    }
+  ],
+  "verdict": {
+    "isolated_Kahler_distinguishability_closure": "FAIL",
+    "complete_state_distinguishability_closure": "STRUCTURAL PASS",
+    "key_exact_result": "The isolated two-shape K\u00e4hler sector supplies 22/25 of the required first-cycle relative weight. The deficit is exactly 3/25, which is the Ford orientation sector omitted by the isolated K\u00e4hler slice.",
+    "interpretation": "The exact 50/50 distinction boundary is recovered only when the third, orientation/Fields-type non-common degree is restored. This is direct mathematical support for the diagnosis that the isolated K\u00e4hler calculation lacked a parameter carried by the rest of the Ford state.",
+    "what_is_not_proved": "We have not yet derived that the Ford horizon orientation mode is a specific string field/axion/B-field modulus, nor that trace-normalized Ford spectral weight is a physical string probability. No such identification was inserted.",
+    "next_hard_gate": "Search the actual complex K\u00e4hler/string field content for the missing orientation-like degree and test whether its standard kinetic/K\u00e4hler structure supplies the 3/25 slot without modifying string theory."
+  }
+}
