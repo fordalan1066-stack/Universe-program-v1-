@@ -1,0 +1,10 @@
+{
+  "g_prime": "Matrix([[d, c + d], [c + d, a + 2*c + d]])",
+  "B_prime": "Matrix([[0, -b], [b, 0]])",
+  "B_prime_equals_minus_B": "True",
+  "generalized_metric_constraint": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "D_H_D_constraint": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "direct_dictionary_residual_zero": "True",
+  "inverse_dictionary_residual_zero": "False",
+  "covariant_basis_dictionary_residual_zero": "True"
+}

@@ -1,0 +1,18 @@
+{
+  "Ford_forward_O22": true,
+  "g_initial": "Matrix([[s, 0], [0, s]])",
+  "g_after_forward": "Matrix([[s, s], [s, 2*s]])",
+  "F_transpose_F": "Matrix([[1, 1], [1, 2]])",
+  "metric_principal_factors": [
+    "phi^2",
+    "phi^-2"
+  ],
+  "linear_principal_scale_factors": [
+    "phi",
+    "phi^-1"
+  ],
+  "torus_area_ratio": "1",
+  "standard_full_T_duality": "g -> g^-1",
+  "result": "Ford Forward deforms T2 shape reciprocally while preserving common volume.",
+  "limit": "Exact structural readout, not yet a claim that physical string backgrounds obey Ford Forward or a derivation of alpha-prime."
+}
